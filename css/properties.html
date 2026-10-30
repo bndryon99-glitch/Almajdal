@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>عقاراتنا | المجدل للعقارات</title>
+<meta name="description" content="تصفّح عقارات المجدل المعروضة للبيع والإيجار في دمشق والساحل.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@600&family=Almarai:wght@300;400;700;800&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo-link">
+      <svg class="logo-icon" width="40" height="34" viewBox="0 0 80 61" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="brassNavProp" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#8B6B33"/>
+            <stop offset="100%" stop-color="#EBD8AC"/>
+          </linearGradient>
+        </defs>
+        <rect x="4" y="0" width="9.6" height="48" fill="url(#brassNavProp)"/>
+        <rect x="66.4" y="0" width="9.6" height="48" fill="url(#brassNavProp)"/>
+        <polygon points="13.6,0 23.2,0 76,48 66.4,48" fill="url(#brassNavProp)"/>
+        <rect x="4" y="53" width="72" height="8" fill="url(#brassNavProp)"/>
+      </svg>
+      <div class="logo-text">
+        <span class="logo-ar">المجدل</span>
+        <span class="logo-en">AL-MAJDAL</span>
+      </div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="services.html">خدماتنا</a>
+      <a href="properties.html">عقاراتنا</a>
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+    <div class="header-actions">
+      <a href="tel:+963995221371" class="phone-link">0995 221 371</a>
+      <a href="contact.html" class="btn-brass btn-sm">احجز زيارة</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero hero-page">
+  <div class="container">
+    <span class="label">AL MAJDAL · LISTINGS</span>
+    <h1 class="h1">عقاراتنا</h1>
+    <p class="lead">كل عقار هنا موصوف بالأرقام قبل الكلمات. شقة 180م² · ثلاث غرف · طابق ثالث — لا أكثر، ولا أقل.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">الكل</button>
+      <button class="filter-btn" data-filter="available">متاح</button>
+      <button class="filter-btn" data-filter="reserved">محجوز</button>
+      <button class="filter-btn" data-filter="sold">مباع</button>
+    </div>
+
+    <div class="properties-grid">
+
+      <div class="property-card" data-status="available">
+        <div class="property-thumb"><span class="status-badge status-available">متاح</span></div>
+        <div class="property-body">
+          <h3 class="h3">شقة في المالكي</h3>
+          <p class="caption">180م² · 3 غرف · طابق ثالث · إطلالة جنوبية</p>
+          <p class="price">285,000$</p>
+          <p class="caption">1,583$ / م²</p>
+          <a href="contact.html" class="btn-outline-dark">احجز زيارة</a>
+        </div>
+      </div>
+
+      <div class="property-card" data-status="reserved">
+        <div class="property-thumb"><span class="status-badge status-reserved">محجوز</span></div>
+        <div class="property-body">
+          <h3 class="h3">فيلا في يعفور</h3>
+          <p class="caption">420م² · 5 غرف · حديقة خاصة · إطلالة جبلية</p>
+          <p class="price">620,000$</p>
+          <p class="caption">1,476$ / م²</p>
+          <a href="contact.html" class="btn-outline-dark">احجز زيارة</a>
+        </div>
+      </div>
+
+      <div class="property-card" data-status="available">
+        <div class="property-thumb"><span class="status-badge status-available">متاح</span></div>
+        <div class="property-body">
+          <h3 class="h3">أرض استثمارية في اللاذقية</h3>
+          <p class="caption">600م² · واجهة بحرية · صك أخضر</p>
+          <p class="price">150,000$</p>
+          <p class="caption">250$ / م²</p>
+          <a href="contact.html" class="btn-outline-dark">احجز زيارة</a>
+        </div>
+      </div>
+
+      <div class="property-card" data-status="sold">
+        <div class="property-thumb"><span class="status-badge status-sold">مباع</span></div>
+        <div class="property-body">
+          <h3 class="h3">شقة في أبو رمانة</h3>
+          <p class="caption">210م² · 4 غرف · طابق خامس · مصعد</p>
+          <p class="price">340,000$</p>
+          <p class="caption">1,619$ / م²</p>
+          <a href="contact.html" class="btn-outline-dark">احجز زيارة</a>
+        </div>
+      </div>
+
+      <div class="property-card" data-status="available">
+        <div class="property-thumb"><span class="status-badge status-available">متاح</span></div>
+        <div class="property-body">
+          <h3 class="h3">محل تجاري في الحمرا</h3>
+          <p class="caption">65م² · واجهة رئيسية · جاهز للتشغيل</p>
+          <p class="price">95,000$</p>
+          <p class="caption">1,461$ / م²</p>
+          <a href="contact.html" class="btn-outline-dark">احجز زيارة</a>
+        </div>
+      </div>
+
+      <div class="property-card" data-status="reserved">
+        <div class="property-thumb"><span class="status-badge status-reserved">محجوز</span></div>
+        <div class="property-body">
+          <h3 class="h3">فيلا في بلودان</h3>
+          <p class="caption">310م² · 4 غرف · شرفة بانورامية</p>
+          <p class="price">450,000$</p>
+          <p class="caption">1,451$ / م²</p>
+          <a href="contact.html" class="btn-outline-dark">احجز زيارة</a>
+        </div>
+      </div>
+
+      <div class="property-card" data-status="available">
+        <div class="property-thumb"><span class="status-badge status-available">متاح</span></div>
+        <div class="property-body">
+          <h3 class="h3">شقة في المزة</h3>
+          <p class="caption">150م² · 3 غرف · طابق ثاني · موقف خاص</p>
+          <p class="price">210,000$</p>
+          <p class="caption">1,400$ / م²</p>
+          <a href="contact.html" class="btn-outline-dark">احجز زيارة</a>
+        </div>
+      </div>
+
+      <div class="property-card" data-status="sold">
+        <div class="property-thumb"><span class="status-badge status-sold">مباع</span></div>
+        <div class="property-body">
+          <h3 class="h3">أرض سكنية في طرطوس</h3>
+          <p class="caption">400م² · ضمن مخطط تنظيمي</p>
+          <p class="price">80,000$</p>
+          <p class="caption">200$ / م²</p>
+          <a href="contact.html" class="btn-outline-dark">احجز زيارة</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section cta-final">
+  <div class="container">
+    <h2 class="h2">لم تجد ما يناسبك بعد؟</h2>
+    <p class="body">أخبرنا بما تبحث عنه، ونرسل لك خيارات تُطابق ميزانيتك بدقة.</p>
+    <a href="contact.html" class="btn-brass">تواصل معنا</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <svg class="logo-icon" width="40" height="34" viewBox="0 0 80 61" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="brassFootProp" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#8B6B33"/>
+            <stop offset="100%" stop-color="#EBD8AC"/>
+          </linearGradient>
+        </defs>
+        <rect x="4" y="0" width="9.6" height="48" fill="url(#brassFootProp)"/>
+        <rect x="66.4" y="0" width="9.6" height="48" fill="url(#brassFootProp)"/>
+        <polygon points="13.6,0 23.2,0 76,48 66.4,48" fill="url(#brassFootProp)"/>
+        <rect x="4" y="53" width="72" height="8" fill="url(#brassFootProp)"/>
+      </svg>
+      <p class="caption">عتبةٌ تُليق بك. تسويق عقاري رصين، يقف عند الحقيقة قبل العاطفة.</p>
+    </div>
+    <div class="footer-col">
+      <h3 class="h3">تصفح</h3>
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="services.html">خدماتنا</a></li>
+        <li><a href="properties.html">عقاراتنا</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3 class="h3">الخدمات</h3>
+      <ul>
+        <li>المجدل | سكن</li>
+        <li>المجدل | استثمار</li>
+        <li>المجدل | مشاريع</li>
+        <li>المجدل | إدارة</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3 class="h3">تواصل</h3>
+      <ul>
+        <li><a href="tel:+963995221371">0995 221 371</a></li>
+        <li><a href="https://wa.me/963995221371" target="_blank">واتساب</a></li>
+        <li>دمشق، سوريا</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>© 2026 المجدل للعقارات</span>
+    <span class="label">THE ART OF ARRIVING</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
