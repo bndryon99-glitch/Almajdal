@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 170">
+  <defs>
+    <linearGradient id="brassFav" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B6B33"/>
+      <stop offset="100%" stop-color="#EBD8AC"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="170" fill="#0B0C0E"/>
+  <rect x="30" y="20" width="24" height="110" fill="url(#brassFav)"/>
+  <rect x="146" y="20" width="24" height="110" fill="url(#brassFav)"/>
+  <polygon points="54,20 78,20 170,130 146,130" fill="url(#brassFav)"/>
+  <rect x="30" y="142" width="140" height="18" fill="url(#brassFav)"/>
+</svg>
