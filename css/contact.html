@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تواصل معنا | المجدل للعقارات</title>
+<meta name="description" content="احجز موعد معاينة عقار أو تواصل مع فريق المجدل مباشرة.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@600&family=Almarai:wght@300;400;700;800&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo-link">
+      <svg class="logo-icon" width="40" height="34" viewBox="0 0 80 61" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="brassNavContact" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#8B6B33"/>
+            <stop offset="100%" stop-color="#EBD8AC"/>
+          </linearGradient>
+        </defs>
+        <rect x="4" y="0" width="9.6" height="48" fill="url(#brassNavContact)"/>
+        <rect x="66.4" y="0" width="9.6" height="48" fill="url(#brassNavContact)"/>
+        <polygon points="13.6,0 23.2,0 76,48 66.4,48" fill="url(#brassNavContact)"/>
+        <rect x="4" y="53" width="72" height="8" fill="url(#brassNavContact)"/>
+      </svg>
+      <div class="logo-text">
+        <span class="logo-ar">المجدل</span>
+        <span class="logo-en">AL-MAJDAL</span>
+      </div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="services.html">خدماتنا</a>
+      <a href="properties.html">عقاراتنا</a>
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+    <div class="header-actions">
+      <a href="tel:+963995221371" class="phone-link">0995 221 371</a>
+      <a href="contact.html" class="btn-brass btn-sm">احجز زيارة</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero hero-page">
+  <div class="container">
+    <span class="label">AL MAJDAL · CONTACT</span>
+    <h1 class="h1">تواصل معنا</h1>
+    <p class="lead">خطوة واحدة تفصلك عن معاينة العقار الذي يليق بك.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container contact-grid">
+
+    <div class="contact-info">
+      <h2 class="h2">بياناتنا</h2>
+      <ul class="info-list">
+        <li>
+          <span class="label">الهاتف</span>
+          <a href="tel:+963995221371">0995 221 371</a>
+        </li>
+        <li>
+          <span class="label">واتساب</span>
+          <a href="https://wa.me/963995221371" target="_blank">تواصل عبر واتساب</a>
+        </li>
+        <li>
+          <span class="label">الموقع</span>
+          <span>دمشق، سوريا</span>
+        </li>
+        <li>
+          <span class="label">أوقات العمل</span>
+          <span>السبت - الخميس · 9 صباحاً - 7 مساءً</span>
+        </li>
+      </ul>
+
+      <div class="map-placeholder">
+        <p class="caption">دمشق، سوريا</p>
+      </div>
+    </div>
+
+    <div class="booking-form-wrap">
+      <h2 class="h2">احجز موعد معاينة</h2>
+      <p class="caption">عبّئ النموذج، وسنرسل طلبك مباشرة عبر واتساب لتأكيد الموعد.</p>
+
+      <form id="bookingForm" class="booking-form">
+        <div class="form-group">
+          <label class="label" for="b-name">الاسم الكامل</label>
+          <input type="text" id="b-name" name="b-name" required>
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="b-phone">رقم الهاتف</label>
+          <input type="tel" id="b-phone" name="b-phone" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="label" for="b-date">التاريخ المفضّل</label>
+            <input type="date" id="b-date" name="b-date" required>
+          </div>
+          <div class="form-group">
+            <label class="label" for="b-time">الوقت المفضّل</label>
+            <input type="time" id="b-time" name="b-time" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="b-property">العقار المطلوب معاينته</label>
+          <select id="b-property" name="b-property">
+            <option value="شقة في المالكي">شقة في المالكي — 285,000$</option>
+            <option value="فيلا في يعفور">فيلا في يعفور — 620,000$</option>
+            <option value="أرض استثمارية في اللاذقية">أرض استثمارية في اللاذقية — 150,000$</option>
+            <option value="شقة في المزة">شقة في المزة — 210,000$</option>
+            <option value="محل تجاري في الحمرا">محل تجاري في الحمرا — 95,000$</option>
+            <option value="عقار آخر / استشارة عامة">عقار آخر / استشارة عامة</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="label" for="b-notes">ملاحظات إضافية</label>
+          <textarea id="b-notes" name="b-notes" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn-brass btn-full">إرسال الطلب عبر واتساب</button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<section class="promise-banner">
+  <div class="container">
+    <p class="lead">"نقيس الزيارات المحجوزة، لا النقرات."</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <svg class="logo-icon" width="40" height="34" viewBox="0 0 80 61" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="brassFootContact" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#8B6B33"/>
+            <stop offset="100%" stop-color="#EBD8AC"/>
+          </linearGradient>
+        </defs>
+        <rect x="4" y="0" width="9.6" height="48" fill="url(#brassFootContact)"/>
+        <rect x="66.4" y="0" width="9.6" height="48" fill="url(#brassFootContact)"/>
+        <polygon points="13.6,0 23.2,0 76,48 66.4,48" fill="url(#brassFootContact)"/>
+        <rect x="4" y="53" width="72" height="8" fill="url(#brassFootContact)"/>
+      </svg>
+      <p class="caption">عتبةٌ تُليق بك. تسويق عقاري رصين، يقف عند الحقيقة قبل العاطفة.</p>
+    </div>
+    <div class="footer-col">
+      <h3 class="h3">تصفح</h3>
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="services.html">خدماتنا</a></li>
+        <li><a href="properties.html">عقاراتنا</a></li>
+        <li><a href="contact.html">تواصل معنا</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3 class="h3">الخدمات</h3>
+      <ul>
+        <li>المجدل | سكن</li>
+        <li>المجدل | استثمار</li>
+        <li>المجدل | مشاريع</li>
+        <li>المجدل | إدارة</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3 class="h3">تواصل</h3>
+      <ul>
+        <li><a href="tel:+963995221371">0995 221 371</a></li>
+        <li><a href="https://wa.me/963995221371" target="_blank">واتساب</a></li>
+        <li>دمشق، سوريا</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <span>© 2026 المجدل للعقارات</span>
+    <span class="label">THE ART OF ARRIVING</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
